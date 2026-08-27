@@ -61,8 +61,9 @@ Gatekeeper warnings and invalidates any Keychain permission you granted.
 ### 4. First run
 
 - macOS may ask for permission to read the `Claude Code-credentials` Keychain item. Choose
-  **Always Allow**. Rebuilding changes the ad-hoc signature, so this can be asked again
-  after an update.
+  **Always Allow**. If you click **Allow** instead, the app asks again the next time the
+  token expires (Claude Code refreshes it every few hours). Rebuilding changes the ad-hoc
+  signature, so this can be asked once more after an update.
 - Open the panel and use the `⋯` menu to pick what the menu bar title shows, and to enable
   **Launch at login**.
 
